@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pass">
+      <h1 class="h1s">-Password Generator-</h1>
+      <div>
+        <h2 id="pawo">.</h2>
+        <div class="properties">
+          Range:
+          <br />
+          <div class="rangecla">
+            8
+            <input type="range" name="rang" id="rang" min="8" max="25" />
+            25
+          </div>
+          <div class="checks">
+            <br />
+            <input type="checkbox" name="nums" id="nums" />Numbers
+          </div>
+          <div class="checks">
+            <br />
+            <input type="checkbox" name="signs" id="signs" />Signs
+          </div>
+          <div class="checks">
+            <br />
+            <input type="checkbox" name="chars" id="chars" />Characters
+            <br />
+          </div>
+        </div>
+        <button class="btn" id="mybtn">Generate</button>
+      </div>
+    </div>
+    <script src="function.js"></script>
+  </body>
+</html>
